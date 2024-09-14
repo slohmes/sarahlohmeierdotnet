@@ -1,0 +1,10 @@
+{
+  "name": "sarahlohmeierdotnet",
+  "version": "1.0.0",
+  "description": "Source code for sarahlohmeier.net",
+  "main": "src/server.js",
+  "repository": "https://github.com/slohmes/sarahlohmeierdotnet",
+  "author": "Sarah Lohmeier <sarahlohmes@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
