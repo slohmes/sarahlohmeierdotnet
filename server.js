@@ -17,7 +17,7 @@ const server = createServer((req, res) => {
       'Content-Type': 'text/plain',
       'Location': 'https://slohmes.wordpress.com/'
     });
-    res.end('New site under construction, redirecting to old site for now!');
+    res.end('New site under construction, redirecting to old site for now.');
   }
 });
 
