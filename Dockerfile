@@ -1,7 +1,12 @@
-# syntax=docker/dockerfile:1
-
-FROM node:22-alpine
+FROM node:20.17.0
+ 
 WORKDIR /app
+ 
+COPY package.json package.json
+COPY package-lock.json package-lock.json
+ 
+RUN npm install
+ 
 COPY . .
-RUN yarn install --production
-CMD ["node", "src/server.js"]
+ 
+CMD [ "node", "server.js" ]
